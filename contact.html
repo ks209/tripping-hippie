@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - TravelDreams</title>
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #007bff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Main Content */
+.main-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Office Info */
+.office-info {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.testimonials {
+    background: #1d4ed8;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  footer {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+</style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md text-xl">
+      <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+        <a href="./" class="text-xl font-bold text-blue-600"><img class="h-[8vh]" src="./logo.png" alt="logo"></a>
+        <div class="flex space-x-4">
+          <a href="./" class="text-gray-800 hover:text-blue-600">Home</a>
+          <a href="./destination.html" class="text-gray-800 hover:text-blue-600">Destinations</a>
+          <a href="./about.html" class="text-gray-800 hover:text-blue-600">About</a>
+          <a href="./contact.html" class="text-gray-800 hover:text-blue-600">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <h1 class="title">Contact Us</h1>
+        <div class="form-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+        
+        <div class="office-info">
+            <h2 class="subtitle">Our Office</h2>
+            <p>1234 Travel Lane, Adventure City, AC 56789</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@traveldreams.com</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h3>About Us</h3>
+          <p>We are passionate about creating unforgettable travel experiences for our customers.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>Tapovan Rishikesh</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Email: info@TrippingHippie.com</p>
+        </div>
+        <div>
+          <h3>Newsletter</h3>
+          <div class="subscribe">
+            <input type="text" placeholder="Your email">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+        // Animation on form and office info
+document.addEventListener("DOMContentLoaded", () => {
+  const formContainer = document.querySelector(".form-container");
+  const officeInfo = document.querySelector(".office-info");
+
+  // Function to fade in elements
+  const fadeIn = (element, delay) => {
+    element.style.transition = `opacity 0.5s ease ${delay}s, transform 0.5s ease ${delay}s`;
+    element.style.opacity = 1;
+    element.style.transform = "translateY(0)";
+  };
+
+  // Initial states
+  formContainer.style.opacity = 0;
+  formContainer.style.transform = "translateY(20px)";
+  officeInfo.style.opacity = 0;
+  officeInfo.style.transform = "translateY(20px)";
+
+  // Animate elements
+  fadeIn(formContainer, 0.2);
+  fadeIn(officeInfo, 0.4);
+});
+
+// Handle form submission (basic validation example)
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Your message has been sent successfully!");
+  contactForm.reset();
+});
+
+    </script>
+</body>
+</html>

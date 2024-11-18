@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tripping Hippie</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="min-h-screen bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md text-xl">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="./" class="text-xl font-bold text-blue-600"><img class="h-[8vh]" src="./logo.png" alt="logo"></a>
+      <div class="flex space-x-4">
+        <a href="./" class="text-gray-800 hover:text-blue-600">Home</a>
+        <a href="./destination.html" class="text-gray-800 hover:text-blue-600">Destinations</a>
+        <a href="./about.html" class="text-gray-800 hover:text-blue-600">About</a>
+        <a href="./contact.html" class="text-gray-800 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Explore the world's most exotic destinations</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Where to?" class="input">
+        <input type="date" class="input">
+        <button class="btn">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Destinations -->
+  <section class="container featured">
+    <h2>Featured Destinations</h2>
+    <div>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1738&q=80" alt="Bali, Indonesia">
+          <div class="card-content">
+            <h3>Bali, Indonesia</h3>
+            <p>Tropical paradise with stunning beaches and rich culture</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=2574&q=80" alt="Santorini, Greece">
+          <div class="card-content">
+            <h3>Santorini, Greece</h3>
+            <p>Picturesque island with white-washed buildings and blue domes</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1740&q=80" alt="Machu Picchu, Peru">
+          <div class="card-content">
+            <h3>Machu Picchu, Peru</h3>
+            <p>Ancient Incan citadel set high in the Andes Mountains</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1740&q=80" alt="Tokyo, Japan">
+          <div class="card-content">
+            <h3>Tokyo, Japan</h3>
+            <p>Bustling metropolis blending ultramodern and traditional</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1365&q=80" alt="Maldives">
+          <div class="card-content">
+            <h3>Maldives</h3>
+            <p>Tropical nation of islands known for luxury resorts</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1740&q=80" alt="New York City, USA">
+          <div class="card-content">
+            <h3>New York City, USA</h3>
+            <p>Iconic city known for its skyscrapers, culture, and energy</p>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      </div>      
+      </div>
+    </div>
+    <br>
+    <br>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials py-12 bg-gray-100">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8">
+      What Our Travelers Say
+    </h2>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto px-4">
+      <div class="testimonial bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition-transform">
+        <div class="profile flex items-center gap-4 mb-4">
+          <img
+            src="https://via.placeholder.com/80"
+            alt="John Doe"
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <h4 class="text-lg font-semibold text-gray-700">John Doe</h4>
+        </div>
+        <p class="text-gray-600">
+          "Amazing experience! The trip was well-organized and the destinations were breathtaking."
+        </p>
+      </div>
+      
+      <div class="testimonial bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition-transform">
+        <div class="profile flex items-center gap-4 mb-4">
+          <img
+            src="https://via.placeholder.com/80"
+            alt="Jane Smith"
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <h4 class="text-lg font-semibold text-gray-700">Jane Smith</h4>
+        </div>
+        <p class="text-gray-600">
+          "I've never felt so relaxed and inspired. This agency truly knows how to create unforgettable memories."
+        </p>
+      </div>
+  
+      <div class="testimonial bg-white rounded-lg shadow-lg p-6 hover:scale-105 transition-transform">
+        <div class="profile flex items-center gap-4 mb-4">
+          <img
+            src="https://via.placeholder.com/80"
+            alt="Mike Johnson"
+            class="w-14 h-14 rounded-full object-cover"
+          />
+          <h4 class="text-lg font-semibold text-gray-700">Mike Johnson</h4>
+        </div>
+        <p class="text-gray-600">
+          "From booking to return, everything was smooth. I'll definitely use their services again for my next adventure."
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h3>About Us</h3>
+        <p>We are passionate about creating unforgettable travel experiences for our customers.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>Tapovan Rishikesh</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@TrippingHippie.com</p>
+      </div>
+      <div>
+        <h3>Newsletter</h3>
+        <div class="subscribe">
+          <input type="text" placeholder="Your email">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
